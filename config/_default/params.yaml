@@ -3,6 +3,11 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
+# caches  https://gohugo.io/host-and-deploy/host-on-github-pages/
+caches:
+  images:
+    dir: :cacheDir/images
+
 # Appearance
 appearance:
   mode: system
@@ -14,8 +19,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Evaluate progress with evidence for strategic foresight.'
+    twitter: 'hanteng'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,12 +40,12 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "🔬👀"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Liao, Han-Teng. {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -58,3 +63,45 @@ features:
     enable: false
   privacy_pack:
     enable: false
+  extra_languages:
+      - r
+      - latex
+  math:
+    enable: false
+  repository:
+    url: 'https://github.com/oxfordroadmap/sci-impact-vis'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
+  search:
+    provider: ''
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: ''
+    api_key: ''
+    zoom: 15
+
+extensions:
+  cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
