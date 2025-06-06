@@ -44,6 +44,16 @@ sections:
     design:
       view: article-grid
       columns: 2
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ""
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      view: citation
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
