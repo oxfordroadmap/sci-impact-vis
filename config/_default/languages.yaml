@@ -3,20 +3,26 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
-en:
-  languageCode: en-us
+  languageCode: zh-Hans
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
+  # contentDir: content/zh  # omit contentDir if translating by file name.
+  title: 可视化作品集 by 牛津路线图 Oxford Roadmapping
+  weight: 1
+  params:
+    description: 本站汇集从科研影响力到净零路线的可视化作品, 展示牛津路线图做战略洞察的实证依摢。
+en:
+  languageCode: en
+  # contentDir: content/en  # omit contentDir if translating by file name.
+  title: Visualization by Oxford Roadmapping
+  weight: 5      
+  params:
+    description: Ranging form Science Impact to Net Zero, this site cureates the visualization works by Oxford Roadmapping for strategic foresight.
 #  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+zh-hant:
+  languageCode: zh-hant
+  languageName: 正體中文
+  # contentDir: content/zht  # # omit contentDir if translating by file name.
+  title: 可視化作品集 by 牛津路線圖 Oxford Roadmapping
+  weight: 3
+  params:
+    description: 本站彙整從科研影響力到淨零路線的可視化作品, 展示牛津路線圖做戰略洞察的實證依摢
