@@ -1,8 +1,9 @@
 ---
+title: '作品集'
+type: landing
 # 请参阅 https://bootstrap.hugoblox.com/blocks/portfolio/  
 # 此部分显示来自 `content/project/` 的内容。
-title: '作品集'
-# type: landing
+
 sections:
   - block: portfolio
     id: projects
@@ -46,10 +47,10 @@ sections:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '2'
       # Choose a listing view
-      # view: masonry 
-      view: showcase
+      view: masonry 
+      # view: showcase
       # For Showcase view, flip alternate rows?
-      flip_alt_rows: true
+      # flip_alt_rows: true
       background: {}
       spacing: {padding: [4px, 0, 4px, 0]}
 ---
