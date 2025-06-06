@@ -11,7 +11,7 @@ main:
     url: teaching/
     weight: 40
   - name: API
-    url: posts/
+    url: post/
     weight: 66
   - name: Papers
     url: '#papers'
