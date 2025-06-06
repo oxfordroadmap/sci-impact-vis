@@ -5,13 +5,13 @@
 
 main:
   - name: 作品项目
-    url: projects/
+    url: project/
     weight: 30
   - name: AI教学
     url: teaching/
     weight: 40
   - name: 评论API
-    url: posts/
+    url: post/
     weight: 66
   - name: 论文
     url: '#papers'
