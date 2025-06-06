@@ -1,6 +1,6 @@
 ---
-title: Teaching
-summary: My courses
+title: Training & Teaching
+summary: Courses
 type: landing
 
 cascade:

@@ -1,6 +1,6 @@
 ---
-title: Teaching
-summary: My courses
+title: 教学与培训课
+summary: AI 相关的一流课程及培训材料
 type: landing
 
 cascade:
