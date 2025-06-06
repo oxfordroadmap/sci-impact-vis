@@ -1,11 +1,9 @@
 # Languages
-#   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
 zh:
   languageCode: zh-Hans
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   # contentDir: content/zh  # omit contentDir if translating by file name.
   title: 可视化作品集 by 牛津路线图 Oxford Roadmapping
   weight: 1
@@ -18,7 +16,7 @@ en:
   weight: 5      
   params:
     description: Ranging form Science Impact to Net Zero, this site cureates the visualization works by Oxford Roadmapping for strategic foresight.
-#  menu:
+
 zh-hant:
   languageCode: zh-hant
   languageName: 正體中文
