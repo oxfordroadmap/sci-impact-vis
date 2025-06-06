@@ -5,7 +5,7 @@
 
 main:
   - name: Projects
-    url: projects/
+    url: project/
     weight: 30
   - name: AI Teaching
     url: teaching/
