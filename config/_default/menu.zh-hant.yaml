@@ -4,12 +4,15 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: 論文
-    url: /#papers
-    weight: 11
   - name: 作品項目
     url: projects/
     weight: 30
   - name: AI教學
     url: teaching/
     weight: 40
+  - name: 評論API
+    url: posts/
+    weight: 66
+  - name: 論文
+    url: /#papers
+    weight: 88
