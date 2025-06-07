@@ -5,7 +5,7 @@
 
 main:
   - name: Projects
-    url: project/
+    url: projects/
     weight: 30
   - name: AI Teaching
     url: teaching/
@@ -14,5 +14,5 @@ main:
     url: post/
     weight: 66
   - name: Papers
-    url: '#papers'
+    url: '/#papers'
     weight: 88

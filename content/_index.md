@@ -11,7 +11,7 @@ design:
 sections:
   - block: markdown
     content:
-      title: 'Portfolio: Vis Science Impact'
+      title: 'About this Portfolio: Vis Science Impact'
       subtitle: ''
       text: |-
         Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
