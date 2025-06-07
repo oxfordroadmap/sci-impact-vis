@@ -13,7 +13,6 @@ design:
 sections:
   - block: collection
 　　id: projects
-
     # 要显示的页面类型。例如：project。
     content:
       title: 分析科研成果及影响
