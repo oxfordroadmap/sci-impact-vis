@@ -24,9 +24,8 @@ sections:
       sort_by: 'Date'
       sort_ascending: false
     design:
-      view: article-grid
+      view: masonry
       fill_image: true
-      columns: 3
       background: {}
       spacing: {padding: [4px, 0, 4px, 0]}
   - block: collection
