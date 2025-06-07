@@ -2,6 +2,7 @@
 # Display name
 title: Han-Teng
 slug: 廖汉腾
+# ./authors/han-teng_liao  ./authors/廖汉腾    See https://gohugo.io/content-management/multilingual/
 
 # Name pronunciation (optional)
 name_pronunciation: Han-Teng Liao
