@@ -44,7 +44,7 @@
 # Themes
 
 - id: theme_selector
-  translation: Display preferences
+  translation: 偏好
 
 - id: theme_light
   translation: 浅色
@@ -91,7 +91,7 @@
   translation: 复制
 
 - id: btn_copied
-  translation: Copied
+  translation: 已复制
 
 - id: btn_download
   translation: 下载
@@ -149,7 +149,7 @@
   translation: 信息
 
 - id: contact_attachment
-  translation: Attach file
+  translation: 附件
 
 - id: contact_send
   translation: 发送
@@ -163,7 +163,7 @@
   translation: 摘要
 
 - id: publication
-  translation: 出版物
+  translation: 出版刊物
 
 - id: publication_type
   translation: 类型
@@ -224,10 +224,10 @@
   translation: 项目
 
 - id: slides
-  translation: Slides
+  translation: 投影片
 
 - id: authors
-  translation: Authors
+  translation: 作者
 
 # Search
 
