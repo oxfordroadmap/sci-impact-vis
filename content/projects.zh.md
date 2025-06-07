@@ -18,7 +18,7 @@ sections:
       # 要显示的页面类型。例如：project。
       filters:
         folders:
-          - project
+          - vis
         # Only show content with these tags
         tags: ['NetBib']
       sort_by: 'Date'
