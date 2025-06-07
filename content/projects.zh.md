@@ -12,9 +12,6 @@ sections:
   - block: collection
     content:
       title: Projects
-      text: |
-	> A curation of projects that demonstrate the analytical insight and strategic foresight of information visualization. 
-	{.note} 
       filters:
         folders:
           - project
@@ -23,3 +20,5 @@ sections:
       fill_image: false
       columns: 3
 ---
+> A curation of projects that demonstrate the analytical insight and strategic foresight of information visualization. 
+{.note} 
