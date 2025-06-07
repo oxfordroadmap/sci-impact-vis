@@ -20,6 +20,8 @@ sections:
       filters:
         folders:
           - project
+      sort_by: 'Date'
+      sort_ascending: false
     design:
       # Choose a listing view
       # view: masonry 
