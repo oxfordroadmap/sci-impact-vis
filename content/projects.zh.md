@@ -13,13 +13,32 @@ design:
 sections:
   - block: collection
     content:
-      title: 分析科研成果及影响
-      subtitle: '利用实证可视化，分析科研成果及影响，做具前瞻战略的系统思考'
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      title: 分析机构科研成果及影响
+      text: '采用UTD计量法量化贡献比例，**实证**分析科研成果及影响，做具前瞻的系统决策，如科研经费、人员等的投入产出。'
       # 要显示的页面类型。例如：project。
       filters:
         folders:
           - project
+        # Only show content with these tags
+        tags: ['NetBib']
+      sort_by: 'Date'
+      sort_ascending: false
+    design:
+      view: article-grid
+      fill_image: true
+      columns: 3
+      background: {}
+      spacing: {padding: [4px, 0, 4px, 0]}
+  - block: collection
+    content:
+      title: 淨零经济及产业路线
+      text: '利用**产业经济**及**能源排放数据**等实证可视化，分析产业投入及产出及排放影响，做具战略的系统思考。'
+      # 要显示的页面类型。例如：project。
+      filters:
+        folders:
+          - project
+        # Only show content with these tags
+        tags: ['NetZero']
       sort_by: 'Date'
       sort_ascending: false
     design:
@@ -36,3 +55,11 @@ sections:
 ---
 > 利用實證可視化，分析科研成果及影響，做具前瞻戰略的系統思考. 
 {.note} 
+      filter_button:
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Deep Learning
+          tag: Deep Learning
+        - name: Other
+          tag: Demo
