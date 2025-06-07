@@ -25,22 +25,21 @@ sections:
         # Exclude content with these tags
         #exclude_tags: []
         # Field to sort by, such as Date or Title
-        sort_by: 'Date'
-        sort_ascending: false
+      sort_by: 'Date'
+      sort_ascending: false
       # 要移除工具栏，请删除整个 `filter_button` 块。
       default_button_index: 0
       # 过滤器工具栏（可选）。
       # 根据需要添加或删除任意数量的过滤器（`filter_button` 实例）。
       # 要显示所有项目，请将 `tag` 设置为 "*"。
       # 要按特定标签过滤，请将 `tag` 设置为现有标签名称。
-        filter_button:
-        buttons:
-          - name: All
-            tag: '*'
-          - name: Deep Learning
-            tag: Deep Learning
-          - name: Other
-            tag: Demo
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Deep Learning
+          tag: Deep Learning
+        - name: Other
+          tag: Demo
     design:
       # Choose a listing view
       # view: masonry 
