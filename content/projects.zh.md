@@ -12,11 +12,14 @@ design:
 # Page sections
 sections:
   - block: collection
-    # 要显示的页面类型。例如：project。
     content:
       title: 分析科研成果及影响
       subtitle: '利用实证可视化，分析科研成果及影响，做具前瞻战略的系统思考'
       text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      # 要显示的页面类型。例如：project。
+      filters:
+        folders:
+          - project
     design:
       # Choose a listing view
       # view: masonry 
