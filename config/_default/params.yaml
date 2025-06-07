@@ -3,6 +3,70 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
+# markdown https://gohugo.io/configuration/markup/
+
+markup:
+  goldmark:
+    duplicateResourceFiles: false
+    extensions:
+      cjk:
+        eastAsianLineBreaks: true
+        eastAsianLineBreaksStyle: simple
+        enable: true
+        escapedSpace: true
+      definitionList: true
+      extras:
+        delete:
+          enable: true
+        insert:
+          enable: true
+        mark:
+          enable: true
+        subscript:
+          enable: true
+        superscript:
+          enable: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      passthrough:
+        delimiters:
+          block: []
+          inline: []
+        enable: false
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer:
+        apostrophe: '&rsquo;'
+        disable: false
+        ellipsis: '&hellip;'
+        emDash: '&mdash;'
+        enDash: '&ndash;'
+        leftAngleQuote: '&laquo;'
+        leftDoubleQuote: '&ldquo;'
+        leftSingleQuote: '&lsquo;'
+        rightAngleQuote: '&raquo;'
+        rightDoubleQuote: '&rdquo;'
+        rightSingleQuote: '&rsquo;'
+    parser:
+      attribute:
+        block: true
+        title: true
+      autoDefinitionTermID: true
+      autoHeadingID: true
+      autoIDType: github
+      wrapStandAloneImageWithinParagraph: true
+    renderHooks:
+      image:
+        enableDefault: false
+      link:
+        enableDefault: false
+    renderer:
+      hardWraps: false
+      unsafe: false
+      xhtml: false
+
 # caches  https://gohugo.io/host-and-deploy/host-on-github-pages/
 caches:
   images:
