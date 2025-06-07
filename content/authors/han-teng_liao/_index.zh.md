@@ -33,7 +33,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: academicons/google-scholar
-    https://scholar.google.com/citations?user=NAeKcO4AAAA
+    url: https://scholar.google.com/citations?user=NAeKcO4AAAA
   - icon: academicons/orcid
     url: https://orcid.org/0000-0003-1081-5599
   - icon: at-symbol
