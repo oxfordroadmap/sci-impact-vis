@@ -33,6 +33,7 @@ sections:
       # 根据需要添加或删除任意数量的过滤器（`filter_button` 实例）。
       # 要显示所有项目，请将 `tag` 设置为 "*"。
       # 要按特定标签过滤，请将 `tag` 设置为现有标签名称。
+      filter_button:
       buttons:
         - name: All
           tag: '*'
@@ -52,5 +53,5 @@ sections:
       background: {}
       spacing: {padding: [4px, 0, 4px, 0]}
 ---
-> 利用实证可视化，分析科研成果及影响，做具前瞻战略的系统思考. 
+> 利用實證可視化，分析科研成果及影響，做具前瞻戰略的系統思考. 
 {.note} 
