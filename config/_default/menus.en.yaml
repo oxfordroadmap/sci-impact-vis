@@ -6,11 +6,14 @@
 main:
   - name: Projects
     url: projects/
-    weight: 30
-  - name: AI Teaching
-    url: teaching/
-    weight: 40
+    weight: 10
   - name: API
+    url: apis/
+    weight: 30
+  - name: Teaching
+    url: teaching/
+    weight: 50
+  - name: Insight
     url: post/
     weight: 66
   - name: Papers
