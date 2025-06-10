@@ -1,13 +1,15 @@
 ---
-title: Learn JavaScript
-summary: Easily learn JavaScript in 10 minutes!
-date: 2023-10-24
+title: API对话AI
+summary: 从闲聊到专家组，如何高效借力生成式AI生态，产出智能产品原型？
+date: 2025-10-24
 type: docs
 math: false
 tags:
-  - JavaScript
+  - Python
+  - API
+  - 项目管理
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: Embed rich media such as videos and LaTeX math
 ---
 
 [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
