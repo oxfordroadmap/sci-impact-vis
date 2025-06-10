@@ -1,15 +1,13 @@
 ---
 title: API, Chat & AI
 summary: From chats to panels of experts, how can we leverage the LLM generative AI ecosystems to prototype smart products that create values?
-date: 2023-10-24
+date: 2025-06-01
 type: docs
 math: false
 tags:
   - Python
   - AI
   - ProjectManagement
-image:
-  caption: Embed rich media such as videos and LaTeX math
 ---
 
 [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
