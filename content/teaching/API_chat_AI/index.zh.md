@@ -91,6 +91,10 @@ $$
 `LLM 管道（LLM pipeline）`是本地实践 LLM 难点之一，不过若能克服则能够实践体会云端至本地含 GPU 的实践考量差异。`循序 UI （Sequential UI）`虽是较进阶的用户使用界面，但正是带有流程性质应用之必备技能。
 {{% /callout %}}
 
+### LLM：打通LLM至提示工程的数据管道
+
+LLM App开发的`数据处理`基础类型是打通 LLM 调用的管道。`LLM 管道（LLM pipeline）`的建构与实践可以包括从云端至本地含 GPU 各类用法。
+
 以下代码展示，部分关于[🦜️🔗 LangChain 语言链代码实践Hugging Face 平台所提供的模型（开源和公开可用的）的本地管道]((https://python.langchain.com/docs/integrations/llms/huggingface_pipelines/#gpu-inference))包装器使用方式：
 
 ```python
@@ -103,7 +107,7 @@ task="text-generation",
 pipeline_kwargs={"max_new_tokens": 10},  
 )
 
-### 创建链，使用提问句模板
+### 创建语言链，使用提问句模板（提示工程）
 from langchain_core.prompts import PromptTemplate
 template = """Question: {question}Answer: Let's think step by step."""
 prompt = PromptTemplate.from_template(template)
@@ -111,6 +115,32 @@ chain = prompt | hf
 question = "What is electroencephalography?"
 print(chain.invoke({"question": question}))
 ```
+
+以上代码案例具体展示从LLM模型加载，到提问句模板（提示工程 Prompt Engineering的阶段）创建语言链的代码实践。
+
+### UI：打通LLM至用户的交互管道
+
+LLM App开发的`用户界面（UI）`基础类型是打通 LLM 至用户的交互管道。`循序 UI （Sequential UI）`的建构与实践可以包括从云端至本地含 GPU 各类用法。下图展示本课程采用的 Python Panel 程序库来实践 的入手聊天机器人案例 [Panel Chat Bot](https://github.com/holoviz-topics/panel-chat-examples)：
+
+![](./featured3.jpg)
+
+##  🗺 学习地图
+
+```mermaid
+graph LR
+    WebLLM_Panel[WebLLM Panel 实践例子] -. Panel 技术线 .-> PanelChatBot( Panel 聊天机器人)
+    WebLLM_Panel[WebLLM Panel 实践例子] -- LLM 技术线 --> LangChain( 🦜🔗 LangChain )
+    WebLLM_Panel[WebLLM Panel 实践例子] -- LLM 技术线 --> LlamaIndex( 🦙 LlamaIndex )
+    WebLLM_Panel -- 创新管理 --> API((API))--> MCP((MCP))
+    WebLLM_Panel -- 创新管理 --> AI_Wrappers>AI Wrappers 商业模式]
+    LangChain -- LLM --> RAG{{檢索增強生成 App}}
+    LlamaIndex -- LLM --> RAG{{檢索增強生成 App}}
+    PanelChatBot -. UI .-> RAG{{檢索增強生成 App}}
+    RAG -. 生态系 .-> API_based_AI_ecosystems([以API为基底的AI生态系])
+    MCP -. 生态系 .-> API_based_AI_ecosystems([以API为基底的AI生态系])
+    AI_Wrappers -. 生态系 .-> API_based_AI_ecosystems([以API为基底的AI生态系])
+```
+
 
 ## 项目式学习（project-based learning ）
 
@@ -122,6 +152,5 @@ print(chain.invoke({"question": question}))
 
 150 字项目简介示例如下：
 
-```
-感谢您们有提供[Panel Chat Examples](https://holoviz-topics.github.io/panel-chat-examples/)学习教案，让我能进一步打造出具检索增强生成（RAG）功能的《孙子兵法》的中英文双语智能对话系统，见[App展示](#App展示)及[技术文档](#技术文档)。请问要如何改进此项目文档，以利展示Panel整合LangChain的潜力及价值？
-```
+
+> 感谢您们有提供[Panel Chat Examples](https://holoviz-topics.github.io/panel-chat-examples/)学习教案，让我能进一步打造出具检索增强生成（RAG）功能的《孙子兵法》的中英文双语智能对话系统，见[App展示](#App展示)及[技术文档](#技术文档)。请问要如何改进此项目文档，以利展示Panel整合LangChain的潜力及价值？
