@@ -19,9 +19,9 @@ tags:
 
 智能應用的整合要如何實做？雲端或本地的一問一答、有來有往的智能API如何能像一塊塊的磚，構建出有用且具體的智能App？
 
-看劇（或編劇）不怕從中間開始的攔腰法（In medias res）。要回答上面的問題，不妨直接從2024 年起開始流行的（大語言）`模型上下文協定 Model Context Protocol (MCP) `，直接浸入。
+看劇（或編劇）不怕從中間開始的攔腰法（In medias res）。要回答上面的問題，不妨直接浸入（大語言）`模型上下文協定 Model Context Protocol (MCP) `。
 
-###　基本概念：概念的掌握
+### 基本概念：概念的掌握
 
 以下影片看的方式是，把所有陌生的名詞記下來放一邊，把聽懂的動詞放另一邊，筆記下來。
 
@@ -29,7 +29,7 @@ tags:
 
 按上述影片內容，MCP 如何強化 智能 AI？ MCP 如何簡化 LLM 工作流程？ 其中 API 扮演什麼角色？
 
-###　基礎實踐：代碼塊的掌握
+### 基礎實踐：代碼塊的掌握
 
 以下影片看的方式是，把所有相關代碼的說明按一塊塊筆記下來其相關的動詞及名詞即可，具體的操作及代碼請務必略過。
 
@@ -41,19 +41,44 @@ tags:
 
 本課程的基礎內容，會以如下的交互內容，對學習者提問，強化學習成果。
 
-{{< spoiler text="👉 ⁉ 2024 年底由 Anthropic 提出的 什麼開放標准？" >}} 業界雖已有使用 API 調用 LLM 大語言模型的問答方式 (i.e. 發問－取答的一往一來) ，但是在更高效提供問答的上下文 (Context) 的流程化及及標准化共同難點方面，則並沒有好的標准及解方，所以才有了開放標准 Model Context Protocol (MCP)　的提案。🎉 {{< /spoiler >}}
+{{< spoiler text="👉 ⁉ 2024 年底 Anthropic 提出什麼開放標准？" >}} 業界雖已有使用 API 調用 LLM 大語言模型的問答方式 (i.e. 發問－取答的一往一來) ，但是在更高效提供問答的上下文 (Context) 的流程化及及標准化共同難點方面，則並沒有好的標准及解方，所以才有了開放標准 Model Context Protocol (MCP)　的提案。🎉 {{< /spoiler >}}
 
 {{< spoiler text="👉 ❓ 2024 年底由 Anthropic 提出的開放標准，具體想解決業界什麼實踐難點？" >}} LLM 應用 （常特指 AI 代理人）的兩大實踐要點是**內容（content）**及**工具（tools）**。🎉 內容指的像是文件集數據庫、或知識庫，工具指的像是搜索、可視化、內容生成等功能，MCP 開放標准則可以將內容及工具整套有共識標准的方式把`工具`、`資源`、及`問答模板`分別打包成機器可查找的清單目錄，進行提供比單一API調用更具體系的使用方式。{{< /spoiler >}}
 
-## 評測 Evaluating LLM apps 
+## 評測 Evaluating LLM apps
 
-要改進App，必需先有好的有用的評測。特別是RAG的應用，像[[🦜️🛠️ LangSmith (LangChain)](https://docs.smith.langchain.com/evaluation/tutorials/rag)] 及[LlamaIndex](https://docs.llamaindex.ai/en/stable/module_guides/evaluating/)都有相關的評測實踐文檔。
+要改進App，必需先有好的有用的評測。特別是RAG的應用，像[[🦜️🛠️ LangSmith (LangChain)](https://docs.smith.langchain.com/evaluation/tutorials/rag)] 及[LlamaIndex](https://docs.llamaindex.ai/en/stable/module_guides/stable/module)。
 
-{{% callout note %}}
+{{% callout 註 %}}
 在`評測（Evaluation）`這環節，對接下來的`觀察（Observability）`、及`部署（Deployment）`具有指導及指引性的影響，因此是學習及操練的重點。
 {{% /callout %}}
 
-在文件檢索方面，常見的基礎評測指標包括Precision、Recall等等:
+### 基本評測指標
+
+在通用的機器學習及以文件檢索方面，常見的基本評測指標包括`召回率（Recall）`、`精確率（Precision）`等等:
+
+`召回率（Recall）`，所有實際正例被正確標誌為正例的佔比，或稱`真正例率(TPR)`：
+{{< math >}}
+
+$$
+Recall = \frac{ TP }{TP + FN}= \frac{Correctly Labeled Actual Positives}{All Actual Positive}
+$$
+
+{{< /math >}}
+
+`精確率（Precision）`，所有被標誌為正例中實際為正例的佔比：
+
+{{< math >}}
+
+$$
+Precision = \frac{ TP }{TP + FP}= \frac{Correctly Labeled Actual Positives }{All Labeled As Positive}
+$$
+
+{{< /math >}}
+
+### LLM RAG 應用評測指標
+
+利用LLM完成具`檢索增強生成（RAG）`功能的評測常涉及以下評測指標：`回答相關性Relevance (Question)`、 `上下文相關性 Relevance (Context)`、`接地氣程度 (Groundedness)`、 等等。
 
 ## 技能：代碼實踐 Code
 

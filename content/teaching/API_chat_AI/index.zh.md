@@ -19,9 +19,9 @@ tags:
 
 智能应用的整合要如何实做？云端或本地的一问一答、有来有往的智能API如何能像一块块的砖，构建出有用且具体的智能App？
 
-看剧（或编剧）不怕从中间开始的拦腰法（In medias res）。要回答上面的问题，不妨直接从2024 年起开始流行的（大语言）`模型上下文协定 Model Context Protocol (MCP) `，直接浸入。
+看剧（或编剧）不怕从中间开始的拦腰法（In medias res）。要回答上面的问题，不妨直接浸入（大语言）`模型上下文协定 Model Context Protocol (MCP) `。
 
-###　基本概念：概念的掌握
+### 基本概念：概念的掌握
 
 以下影片看的方式是，把所有陌生的名词记下来放一边，把听懂的动词放另一边，笔记下来。
 
@@ -29,7 +29,7 @@ tags:
 
 按上述影片内容，MCP 如何强化 智能 AI？ MCP 如何简化 LLM 工作流程？ 其中 API 扮演什么角色？
 
-###　基础实践：代码块的掌握
+### 基础实践：代码块的掌握
 
 以下影片看的方式是，把所有相关代码的说明按一块块笔记下来其相关的动词及名词即可，具体的操作及代码请务必略过。
 
@@ -41,7 +41,7 @@ tags:
 
 本课程的基础内容，会以如下的交互内容，对学习者提问，强化学习成果。
 
-{{< spoiler text="👉 ⁉ 2024 年底由 Anthropic 提出的 什么开放标准？" >}} 业界虽已有使用 API 调用 LLM 大语言模型的问答方式 (i.e. 发问－取答的一往一来) ，但是在更高效提供问答的上下文 (Context) 的流程化及及标准化共同难点方面，则并没有好的标准及解方，所以才有了开放标准 Model Context Protocol (MCP)　的提案。🎉 {{< /spoiler >}}
+{{< spoiler text="👉 ⁉ 2024 年底 Anthropic 提出什么开放标准？" >}} 业界虽已有使用 API 调用 LLM 大语言模型的问答方式 (i.e. 发问－取答的一往一来) ，但是在更高效提供问答的上下文 (Context) 的流程化及及标准化共同难点方面，则并没有好的标准及解方，所以才有了开放标准 Model Context Protocol (MCP)　的提案。🎉 {{< /spoiler >}}
 
 {{< spoiler text="👉 ❓ 2024 年底由 Anthropic 提出的开放标准，具体想解决业界什么实践难点？" >}} LLM 应用 （常特指 AI 代理人）的两大实践要点是**内容（content）**及**工具（tools）**。🎉 内容指的像是文件集数据库、或知识库，工具指的像是搜索、可视化、内容生成等功能，MCP 开放标准则可以将内容及工具整套有共识标准的方式把`工具`、`资源`、及`问答模板`分别打包成机器可查找的清单目录，进行提供比单一API调用更具体系的使用方式。{{< /spoiler >}}
 
@@ -53,15 +53,20 @@ tags:
 在`评测（Evaluation）`这环节，对接下来的`观察（Observability）`、及`部署（Deployment）`具有指导及指引性的影响，因此是学习及操练的重点。
 {{% /callout %}}
 
-在文件检索方面，常见的基础评测指标包括Precision、Recall等等:
+###  基础评测指标
 
+在通用的机器学习及以文件检索方面，常见的基础评测指标包括`召回率（Recall）`、`精确率（Precision）`等等:
+
+`召回率（Recall）`，所有实际正例被正确标志为正例的占比，或称`真正例率(TPR)`：
 {{< math >}}
 
 $$
-Recall = \frac{ TP }{TP + FN}= \frac{Correctly Labeled Actual Positives }{All Actual Positive}
+Recall = \frac{ TP }{TP + FN}= \frac{Correctly Labeled Actual Positives}{All Actual Positive}
 $$
 
 {{< /math >}}
+
+`精确率（Precision）`，所有被标志为正例中实际为正例的占比：
 
 {{< math >}}
 
@@ -70,6 +75,13 @@ Precision = \frac{ TP }{TP + FP}= \frac{Correctly Labeled Actual Positives }{All
 $$
 
 {{< /math >}}
+
+###  LLM RAG 应用评测指标
+
+利用LLM完成具`检索增强生成（RAG）`功能的评测常涉及以下评测指标：`回答相关性Relevance (Question)`、 `上下文相关性 Relevance (Context)`、`接地气程度 (Groundedness)`、 等等。
+
+![RAG workflow](./RAG_workflow.png)
+
 
 ## 技能：代码实践 Code
 
