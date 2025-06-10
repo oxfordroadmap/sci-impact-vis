@@ -8,3 +8,7 @@ li.nav-item.dropdown {
     min-width: 80px;
     text-align: center;
 }
+
+.hb-sidebar-container {
+    width: 12rem 288px;
+}

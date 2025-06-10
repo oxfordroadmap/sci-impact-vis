@@ -78,7 +78,7 @@ $$
 
 ###  LLM RAG 应用评测指标
 
-利用LLM完成具`检索增强生成（RAG）`功能的评测常涉及以下评测指标：`回答相关性Relevance (Question)`、 `上下文相关性 Relevance (Context)`、`接地气程度 (Groundedness)`、 等等。
+利用LLM完成具`检索增强生成（RAG）`功能的评测常涉及以下评测指标：`回答相关性Relevance (Question)`、 `上下文相关性 Relevance (Context)`、`接地气程度 (Groundedness)`、`LLM作为裁判（LLM-as-a-judge）` 等等。
 
 ![RAG workflow](./RAG_workflow.png)
 

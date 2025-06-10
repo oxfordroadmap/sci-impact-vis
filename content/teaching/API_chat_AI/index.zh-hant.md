@@ -78,7 +78,7 @@ $$
 
 ### LLM RAG 應用評測指標
 
-利用LLM完成具`檢索增強生成（RAG）`功能的評測常涉及以下評測指標：`回答相關性Relevance (Question)`、 `上下文相關性 Relevance (Context)`、`接地氣程度 (Groundedness)`、 等等。
+利用LLM完成具`檢索增強生成（RAG）`功能的評測常涉及以下評測指標：`回答相關性Relevance (Question)`、 `上下文相關性 Relevance (Context)`、`接地氣程度 (Groundedness)`、`LLM作為裁判（LLM-as-a-judge）`等等。
 
 ## 技能：代碼實踐 Code
 
