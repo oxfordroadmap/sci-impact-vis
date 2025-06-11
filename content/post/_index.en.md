@@ -17,18 +17,38 @@ sections:
         tags:
           - 🤓Insights
     design:
-      view: article-grid
+      view: date-title-summary
       columns: 2
   - block: collection
     id: 👍Recommendations
     content:
-      title: 👍Recommendations
+      page_type: post
+      # count: 3
+      # Filter on criteria
       filters:
-        tags:
-          - 👍Recommendations
+        tag: "👍Recommendations"
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      order: desc
     design:
       view: article-grid
       columns: 3
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
+  - block: collection
+    id: 🧠Cognitive Frames
+    content:
+      page_type: post
+      filters:
+        tag: "🧠Cognitive Frames"
+      order: desc
+    design:
+      view: article-grid
+      columns: 3
+
   - block: collection
     id: 🧠Cognitive Frames
     content:
@@ -37,8 +57,10 @@ sections:
         tags:
           - 🧠Cognitive Frames
     design:
-      view: article-grid
+      view: date-title-summary
       columns: 1
+      spacing:
+        padding: [0, 0, 0, 0]
 ---
 
 
