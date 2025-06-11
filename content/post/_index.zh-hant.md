@@ -1,7 +1,36 @@
 ---
-title: 🤓洞察、👍推薦、🧠認知站
-view: card
-columns: 3
+title: Blog
+view: showcase
+# Optional banner image (relative to `assets/media/` folder).
+banner:
+  caption: 'Traditional Finnish sauna whisking（2023 WikiLovesMonumnet Award）'
+  image: 'wikicommons-Traditional_Finnish_sauna_whisking.jpg'
+sections:
+  - block: collection
+    id: 'news'
+    content:
+      title: 'Latest news'
+      subtitle: 'Green Digital Transformation'
+      text: 
+      # Display content from the `content/post/` folder
+      filters:
+        folders:
+          - post
+    design:
+      columns: '2'
+      view: showcase
+      flip_alt_rows: true
 ---
 
-<!-- [🧱 Build your pages with blocks: no-code required! | Hugo Blox Docs](https://docs.hugoblox.com/getting-started/page-builder/#listing-view) -->
+<span style="color: #cf4a31;"><i class="ai ai-ideas-repec ai-3x fa-bounce"></i></span>
+
+<style>
+.article-title  > a {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+article.prose > h1 {
+  font-size: 1.25rem;
+}
+</style>
