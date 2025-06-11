@@ -2,7 +2,8 @@
 title: 🤓Insights, 👍Recommendations, 🧠Cognitive Frames
 cascade:
   - _target:
-      kind: post
+      kind: page
+      #kind: section see ## PAGE OPTIONS at hogo.yaml
     params:
       show_breadcrumb: true
 sections:
