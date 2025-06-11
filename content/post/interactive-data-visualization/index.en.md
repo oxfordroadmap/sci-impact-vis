@@ -1,15 +1,15 @@
 ---
-title: 📈 Communicate your results effectively with the best data visualizations
-summary: Use popular tools such as Plotly, Mermaid, and data frames.
-date: 2023-10-25
+title: 📈 Communicate your insights effectively with the interactive data visualizations that empower users
+summary: Apply tools such as Panel (Data Exploration & Web App Framework for Python), Mermaid, and data frames.
+date: 2022-02-28
 authors:
-  - admin
+  - han-teng_liao
 tags:
-  - Hugo
-  - Hugo Blox
+  - Panel
+  - Pandas
   - Markdown
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: "Image credit: [**Unsplash**](https://unsplash.com)"
 ---
 
 Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.
