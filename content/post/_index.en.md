@@ -14,8 +14,6 @@ sections:
     content:
       title: 🤓Insights
       filters:
-        folders:
-          - post
         tags:
           - 🤓Insights
     design:
@@ -26,8 +24,6 @@ sections:
     content:
       title: 👍Recommendations
       filters:
-        folders:
-          - post
         tags:
           - 👍Recommendations
     design:
@@ -38,8 +34,6 @@ sections:
     content:
       title: 🧠Cognitive Frames
       filters:
-        folders:
-          - post
         tags:
           - 🧠Cognitive Frames
     design:
