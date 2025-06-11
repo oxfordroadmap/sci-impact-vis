@@ -42,8 +42,7 @@ sections:
     content:
       title: 🧠Cognitive Frames
       filters:
-        tags:
-          - 🧠Cognitive Frames
+        tags: '🧠Cognitive Frames'
     design:
       view: date-title-summary
       spacing:
@@ -53,8 +52,9 @@ sections:
     content:
       title: 📚References
       filters:
-        tags:
-          - 📚References
+        publication_type: "book"
+        # https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
+        tag: '📚References'
     design:
       view: citation
 ---
