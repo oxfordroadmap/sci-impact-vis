@@ -5,8 +5,8 @@ date: 2023-10-25
 authors:
   - han-teng_liao
 tags:
-  - 🤓Insights
-  - 👍Recommendations
+  - insights
+  - recommendations
   - Panel
   - Pandas
   - Markdown

@@ -5,5 +5,8 @@ categories:
 - opinions
 tags:
 - 🤓Insights
-title: 'Tag: Insightful analysis'
+aliases:
+- /🤓洞察
+- /洞察
+title: 'Tag: 洞察分析'
 ---
