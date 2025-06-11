@@ -1,5 +1,5 @@
 ---
-title: 🤓洞察、👍推薦、🧠認知站
+title: 🤓洞察丶👍推荐丶🧠认知站
 type: landing
 # type: landing i.e. pages that can consist of content _blocks_, such as 
 cascade:

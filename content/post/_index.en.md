@@ -5,7 +5,7 @@ type: landing
 cascade:
   - _target:
       kind: page
-      #kind: section see ## PAGE OPTIONS at hogo.yaml
+      #kind: `home`, `page`, `section`, `taxonomy`, or `term` see ## PAGE  https://gohugo.io/quick-reference/glossary/#page-kind 
     params:
       show_breadcrumb: true
 sections:
