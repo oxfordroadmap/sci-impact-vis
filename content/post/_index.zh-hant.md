@@ -1,36 +1,31 @@
 ---
-title: Blog
-view: showcase
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: 'Traditional Finnish sauna whisking（2023 WikiLovesMonumnet Award）'
-  image: 'wikicommons-Traditional_Finnish_sauna_whisking.jpg'
+title: 🤓洞察、👍推薦、🧠認知站
+type: landing
+# type: landing i.e. pages that can consist of content _blocks_, such as 
+cascade:
+  - _target:
+      kind: page
+    params:
+      show_breadcrumb: true
 sections:
   - block: collection
-    id: 'news'
+    id: 🤓洞察
     content:
-      title: 'Latest news'
-      subtitle: 'Green Digital Transformation'
-      text: 
-      # Display content from the `content/post/` folder
+      title: 🤓洞察
       filters:
         folders:
           - post
+        tags:
+          - 🤓Insights
     design:
-      columns: '2'
-      view: showcase
-      flip_alt_rows: true
+      view: article-grid
+      columns: 2
 ---
 
-<span style="color: #cf4a31;"><i class="ai ai-ideas-repec ai-3x fa-bounce"></i></span>
-
+<!-- [🧱 Build your pages with blocks: no-code required! | Hugo Blox Docs](https://docs.hugoblox.com/getting-started/page-builder/#listing-view) -->
 <style>
-.article-title  > a {
-  font-size: 1.75rem;
-  font-weight: 700;
-}
-
 article.prose > h1 {
   font-size: 1.25rem;
+  font-weight: 700;
 }
 </style>

@@ -1,6 +1,7 @@
 ---
 title: 🤓洞察、👍推薦、🧠認知站
 type: landing
+# type: landing i.e. pages that can consist of content _blocks_, such as 
 cascade:
   - _target:
       kind: page
