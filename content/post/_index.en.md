@@ -17,8 +17,7 @@ sections:
         tags:
           - 🤓Insights
     design:
-      view: date-title-summary
-      columns: 2
+      view: card
   - block: collection
     id: 👍Recommendations
     content:
@@ -41,30 +40,30 @@ sections:
   - block: collection
     id: 🧠Cognitive Frames
     content:
-      page_type: post
-      filters:
-        tag: "🧠Cognitive Frames"
-      order: desc
-    design:
-      view: article-grid
-      columns: 3
-
-  - block: collection
-    id: 🧠Cognitive Frames
-    content:
       title: 🧠Cognitive Frames
       filters:
         tags:
           - 🧠Cognitive Frames
     design:
       view: date-title-summary
-      columns: 1
       spacing:
         padding: [0, 0, 0, 0]
+  - block: collection
+    id: 📚References
+    content:
+      title: 📚References
+      filters:
+        tags:
+          - 📚References
+    design:
+      view: citation
 ---
 
 
 <!-- [🧱 Build your pages with blocks: no-code required! | Hugo Blox Docs](https://docs.hugoblox.com/getting-started/page-builder/#listing-view) -->
+<!-- [ default views:  article-grid (with columns); card; citation; date-title-summary] (https://github.com/HugoBlox/hugo-blox-builder/tree/44e75541f7be16116e80e5c71ff98f6997d63fe5/modules/blox-tailwind/layouts/partials/views) -->
+
+
 <style>
 article.prose > h1 {
   font-size: 1.25rem;
