@@ -14,7 +14,7 @@ sections:
         folders:
           - post
         tags:
-	      - _Insights_
+          - 🤓Insights
     design:
       view: article-grid
       columns: 2
@@ -26,7 +26,7 @@ sections:
         folders:
           - post
         tags:
-	      - _Recommendations_
+          - 👍Recommendations
     design:
       view: article-grid
       columns: 3
@@ -38,7 +38,7 @@ sections:
         folders:
           - post
         tags:
-	      - _Cognitive Frames_
+          - 🧠Cognitive Frames
     design:
       view: article-grid
       columns: 1
