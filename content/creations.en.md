@@ -3,6 +3,6 @@ categories:
 - projects
 - datasets
 tags:
-- 🚧Creations
+- '🚧Creations'
 title: Produced outcomes
 ---
