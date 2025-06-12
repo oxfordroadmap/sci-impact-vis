@@ -16,6 +16,7 @@ sections:
       filters:
         folders:
           - teaching
+        tag: '推荐'
     design:
       view: article-grid
       columns: 3
