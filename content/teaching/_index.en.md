@@ -1,14 +1,12 @@
 ---
 title: Training & Teaching
-summary: Courses
 type: landing
-
+# type: landing i.e. pages containing _blocks_, such as the **homepage**
 cascade:
   - _target:
       kind: page
     params:
       show_breadcrumb: true
-
 sections:
   - block: collection
     id: teaching
@@ -17,7 +15,6 @@ sections:
       filters:
         folders:
           - teaching
-        tag: 'recommendations'
     design:
       view: article-grid
       columns: 3
