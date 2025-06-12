@@ -134,3 +134,13 @@ renders as
 {{< icon name="python" >}} Python
 
 ## Did you find this page helpful? Consider sharing it 🙌
+
+
+
+{{< figure
+  src="Alan_Turing_animation.webp"
+  alt="The Alan Turing Statue at Bletchley Park"
+  link="https://www.turing.ac.uk/"
+  caption="英国国家级的数据科学与人工智能的研究所`Alan Turing Institute`以英国数学家、计算机先驱`艾伦·图灵`命名"
+  class="ma0 w-75"
+}}
