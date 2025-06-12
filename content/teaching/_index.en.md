@@ -17,6 +17,7 @@ sections:
       filters:
         folders:
           - teaching
+        tag: 'recommendations'
     design:
       view: article-grid
       columns: 3
