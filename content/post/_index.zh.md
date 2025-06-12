@@ -38,6 +38,25 @@ sections:
       # Choose how many pages you would like to display (0 = all pages)
       count: 2
   - block: collection
+    id: '👍推荐'
+    content:
+      page_type: post
+      # count: 3
+      # Filter on criteria
+      filters:
+        tag: '👍推荐'
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      order: desc
+    design:
+      view: article-grid
+      columns: 3
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
+  - block: collection
     id: '🧠认知站'
     content:
       title: '🧠认知站'

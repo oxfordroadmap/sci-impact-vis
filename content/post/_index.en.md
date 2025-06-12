@@ -37,7 +37,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-    - block: collection
+  - block: collection
     id: '🧠Cognitive Frames'
     content:
       title: '🧠Cognitive Frames'
