@@ -1,7 +1,7 @@
 ---
 title: 🤓Insights, 👍Recommendations, 🧠Cognitive Frames
 type: landing
-# type: landing i.e. pages that can consist of content _blocks_, such as the **homepage**
+# type: landing i.e. pages containing _blocks_, such as the **homepage**
 cascade:
   - _target:
       kind: page
@@ -15,7 +15,7 @@ sections:
       title: 🤓Insights
       filters:
         tags:
-          - 🤓Insights
+          - insights
     design:
       view: card
   - block: collection
@@ -25,7 +25,7 @@ sections:
       # count: 3
       # Filter on criteria
       filters:
-        tag: "👍Recommendations"
+        tag: recommendations
         exclude_featured: false
         exclude_future: false
         exclude_past: false
@@ -37,10 +37,10 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-  - block: collection
-    id: 🧠Cognitive Frames
+    - block: collection
+    id: '🧠Cognitive Frames'
     content:
-      title: 🧠Cognitive Frames
+      title: '🧠Cognitive Frames'
       filters:
         tags: '🧠Cognitive Frames'
     design:
@@ -48,9 +48,9 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
   - block: collection
-    id: 📚References
+    id: '📚References'
     content:
-      title: 📚References
+      title: '📚References'
       filters:
         publication_type: "book"
         # https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
