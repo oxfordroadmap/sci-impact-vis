@@ -22,6 +22,6 @@ image:
   src="Alan_Turing_animation.webp"
   alt="布莱切利园的艾伦·图灵雕像"
   link="https://www.turing.ac.uk/"
-  caption="英国国家级的数据科学与人工智能的研究所`Alan Turing Institute`以英国数学家、计算机先驱`艾伦·图灵`命名。此照片为布莱切利园的艾伦·图灵雕像。"
+  caption="英国国家级的数据科学与人工智能的研究所 Alan Turing Institute 以英国数学家、计算机先驱 艾伦·图灵 命名。此照片为布莱切利园的艾伦·图灵雕像。"
   class="ma0 w-75"
 }}
