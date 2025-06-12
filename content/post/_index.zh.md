@@ -17,7 +17,7 @@ sections:
       filters:
       # Filter on criteria
       #  category: ""
-        tag: 'insights'
+        tag: '🤓洞察'
       # Choose how many pages you would like to offset by
       offset: 0
       # Page order: descending (desc) or ascending (asc) date.
@@ -54,19 +54,19 @@ sections:
     content:
       title: '🧠认知站'
       filters:
-        tags: '🧠Cognitive Frames'
+        tags: '🧠认知站'
     design:
       view: date-title-summary
       spacing:
         padding: [0, 0, 0, 0]
   - block: collection
-    id: '📚References'
+    id: '📚参考文献'
     content:
-      title: '📚References'
+      title: '📚参考文献'
       filters:
         publication_type: "book"
         # https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
-        tag: '📚References'
+        tag: '📚参考文献'
     design:
       view: citation
 ---

@@ -15,7 +15,7 @@ sections:
       title: '🤓Insights'
       filters:
         tags:
-          - insights
+          - '🤓Insights'
     design:
       view: card
   - block: collection
@@ -25,7 +25,7 @@ sections:
       # count: 3
       # Filter on criteria
       filters:
-        tag: recommendations
+        tag: '👍Recommendations'
         exclude_featured: false
         exclude_future: false
         exclude_past: false
