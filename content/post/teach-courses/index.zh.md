@@ -5,7 +5,7 @@ date: 2024-02-28
 authors:
   - 廖汉腾
 tags:
-  - '👍Recommendations'
+  - '👍推荐'
   - AI
   - LLM
 image:
