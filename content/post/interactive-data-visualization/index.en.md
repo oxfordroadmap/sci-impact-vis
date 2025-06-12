@@ -6,7 +6,7 @@ authors:
   - han-teng_liao
 tags:
   - insights
-  - 👍Recommendations
+  - '👍Recommendations'
   - Panel
   - Pandas
   - Markdown

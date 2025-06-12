@@ -1,5 +1,5 @@
 ---
-title: 🤓Insights, 👍Recommendations, 🧠Cognitive Frames
+title: '🤓Insights, 👍Recommendations, 🧠Cognitive Frames'
 type: landing
 # type: landing i.e. pages containing _blocks_, such as the **homepage**
 cascade:
@@ -10,16 +10,16 @@ cascade:
       show_breadcrumb: true
 sections:
   - block: collection
-    id: 🤓Insights
+    id: '🤓Insights'
     content:
-      title: 🤓Insights
+      title: '🤓Insights'
       filters:
         tags:
           - insights
     design:
       view: card
   - block: collection
-    id: 👍Recommendations
+    id: '👍Recommendations'
     content:
       page_type: post
       # count: 3

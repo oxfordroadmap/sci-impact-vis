@@ -5,7 +5,7 @@ date: 2023-10-24
 authors:
   - admin
 tags:
-  - 👍Recommendations
+  - '👍Recommendations'
   - AI
   - LLM
 image:
