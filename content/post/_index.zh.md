@@ -16,8 +16,7 @@ sections:
       subtitle: '🤓洞察'
       text: '🤓洞察....'
       filters:
-        tags: 
-          - '🤓洞察'
+        tag: '洞察'
       order: desc
     design:
       view: date-title-summary
@@ -32,7 +31,7 @@ sections:
       # count: 3
       # Filter on criteria
       filters:
-        tag: '👍推荐'
+        tag: '推荐'
         exclude_featured: false
         exclude_future: false
         exclude_past: false
@@ -49,7 +48,7 @@ sections:
     content:
       title: '🧠认知站'
       filters:
-        tags: '🧠认知站'
+        tag: '认知站'
     design:
       view: date-title-summary
       spacing:
@@ -61,7 +60,7 @@ sections:
       filters:
         publication_type: "book"
         # https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
-        tag: '📚参考文献'
+        tag: '参考文献'
     design:
       view: citation
 ---
