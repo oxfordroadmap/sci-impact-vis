@@ -21,6 +21,7 @@ sections:
   - block: collection
     id: '👍Recommendations'
     content:
+      title: '👍Recommendations'
       page_type: post
       # count: 3
       # Filter on criteria

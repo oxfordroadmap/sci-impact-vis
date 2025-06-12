@@ -5,6 +5,7 @@ type: landing
 cascade:
   - _target:
       kind: page
+      #kind: `home`, `page`, `section`, `taxonomy`, or `term` see ## PAGE  https://gohugo.io/quick-reference/glossary/#page-kind 
     params:
       show_breadcrumb: true
 sections:
@@ -15,25 +16,19 @@ sections:
       subtitle: '🤓洞察'
       text: '🤓洞察....'
       filters:
-      # Filter on criteria
-      #  category: ""
-        tag: '🤓洞察'
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
+        tags: 
+          - '🤓洞察'
       order: desc
     design:
-      # Choose a layout view
-      # view: date-title-summary
-      view: card
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
+      view: date-title-summary
+      # view: card
       # Choose how many pages you would like to display (0 = all pages)
       count: 2
   - block: collection
     id: '👍推荐'
     content:
-      page_type: post
+      title: '👍推荐'
+      page_type: project
       # count: 3
       # Filter on criteria
       filters:
