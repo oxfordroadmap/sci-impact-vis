@@ -4,9 +4,9 @@ categories:
 - analysis
 - opinions
 tags:
-- 🤓Insights
+- '🤓Insights'
 aliases:
-- /🤓洞察
-- /洞察
+- '/🤓洞察'
+- '/洞察'
 title: 'Tag: 洞察分析'
 ---

@@ -1,5 +1,5 @@
 ---
-title: 🤓洞察、👍推薦、🧠認知站
+title: '🤓洞察、👍推薦、🧠認知站'
 type: landing
 # type: landing i.e. pages that can consist of content _blocks_, such as 
 cascade:
@@ -9,14 +9,14 @@ cascade:
       show_breadcrumb: true
 sections:
   - block: collection
-    id: 🤓洞察
+    id: '🤓洞察'
     content:
-      title: 🤓洞察
+      title: '🤓洞察'
       filters:
         folders:
           - post
         tags:
-          - 🤓Insights
+          - '🤓Insights'
     design:
       view: article-grid
       columns: 2
