@@ -20,7 +20,7 @@ sections:
         folders:
           - project
         # Only show content with these tags
-        tags: ['NetBib']
+        tag: 'NetBib'
       sort_by: 'Date'
       sort_ascending: false
     design:
