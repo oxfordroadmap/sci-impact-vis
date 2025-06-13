@@ -36,8 +36,9 @@ sections:
       filters:
         folders:
           - project
+          - vis
         # Only show content with these tags
-        tags: ['NetZero']
+        tag: 'NetZero'
       sort_by: 'Date'
       sort_ascending: false
     design:
